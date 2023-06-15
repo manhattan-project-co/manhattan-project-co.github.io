@@ -1,0 +1,40 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #151515;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+h1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3em;
+    display: inline-block;
+    text-shadow: 0 0 2px #ff2e2e, 0 0 30px #ff2e2e;
+}
+h2 {
+    font-size: 26px;
+}
+#q {
+    display: grid;
+}
+#m {
+    display: flex;
+    flex-direction: column;
+    min-width: 1000px;
+    max-width: 1200px;
+    justify-self: center;
+}
+#c {
+    max-width: 700px;
+    padding: 100px 0;
+    align-self: center;
+    text-align: justify;
+}
+#colab {
+    font-size: 12px;
+}
+.light-blue {
+    color: #67bcda;
+}
